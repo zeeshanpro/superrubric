@@ -1,0 +1,228 @@
+
+@media only screen and (max-width: 1050px){
+.wrapper .right-panel {
+    /*transform: translateX(1050px);*/
+    transition: all 0.3s ease-in-out 0s;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+.resume {
+    width: 100%;
+    margin-top: 0% !important;
+}
+
+.previewButton {
+	display:block;
+	z-index: 9999;	
+	background-color: #000000;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 73px;
+    right: 10px;
+}
+
+.previewImg {
+	width: 100%;
+}
+
+.show_left_panel {
+	transform: translateX(1050px);
+}
+}
+
+@media only screen and (max-width: 1050px){
+.wrapper .action-introWrapper ul li {
+    font-size: 13px;
+}
+.action-introWrapper .body h1 {
+
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 580px;
+    margin: 1.75rem auto;
+}
+}
+@media (min-width:992px) and (max-width:1299px){
+.school-table td p {
+    font-size: 4px;
+    
+}
+.resume {
+    margin-top: 5%;
+}
+.school-table thead th {
+   
+    font-size: 5px;
+    padding: .15rem !important;
+}
+.school-table tbody td {
+    height: 75px !important;
+}
+.bg-gry {
+    font-size: 5px;
+}
+.media-logo img {
+    width: 42px;
+}	
+}
+
+@media (min-width:1200px) and (max-width:1430px){
+.table-bordered td p{
+    text-align: center;
+  font-size: 4px;
+  margin-bottom: 0px;
+}
+.school-table tbody td {
+    height: 70px !important;
+ 
+}
+.media-text h3 {
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.bg-gry {
+   
+    font-size: 6px;
+}
+.media-logo img {
+    width: 40px;
+}
+.top-header h4 {
+    font-size: 6px;
+    margin-bottom: 2px;
+}	
+.resume {
+    padding:5px 15px 40px;
+    margin-top:3%;
+   
+}
+.table thead th {
+    font-size: 5px;
+    
+}
+}
+@media (min-width:1431px) and (max-width:1700px){
+	
+.table-bordered td p {
+    text-align: center;
+    font-size: 7px;
+    margin-bottom: 0px;
+}
+.school-table tbody td { 
+    height: 100px !important;
+}
+.resume {
+    margin-top:6%;
+    width: 80%;
+    padding:5px 15px 40px;
+}	
+}
+
+@media (min-width:1701px) and (max-width:1920px){
+.table-bordered td p {
+    text-align: center;
+    font-size: 8px;
+    margin-bottom: 0px;
+}
+.school-table tbody td { 
+    height: 120px !important;
+}
+.resume {
+    margin-top: 7%;
+    padding:5px 15px 40px;
+}	
+}
+
+@media (min-width: 1921px){
+.table-bordered td p {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.school-table tbody td { 
+    height: 120px !important;
+}
+.resume {
+    margin-top: 14%;
+     width: 80%;
+     padding:5px 15px 50px;
+}
+
+}
+
+
+@media (max-width: 767px){
+	.previewButton {
+	display:block;
+	z-index: 9999;	
+	background-color: #000000;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 73px;
+    right: 10px;
+}
+
+.previewImg {
+	width: 100%;
+}
+
+.show_left_panel {
+	transform: translateX(1050px);
+}
+
+.mt_mobile {
+	margin-top: 7.5rem !Important;
+}
+
+.cumulative_sd_mobile {
+	display: block;
+	margin-top: 10px;
+}
+
+.average h4 {
+	text-align: left;
+}
+
+.deviation h4 {
+	text-align: left;
+}
+
+.charts_divs table {
+	display: block;
+	overflow-x: auto !important;
+}
+ .templateSelection .templatesList .template {
+	 margin: 10px !important;
+ }
+ .templateSelection {
+	 width: 80% !important;
+ }
+ .download-btn h4 {
+	 font-size: 14px;
+ }
+ 
+ #myHeader {
+	display: none;
+ }
+ 
+ #navbar {
+	 display: flex;
+ }
+ 
+ .modal-content {
+    padding: 20px 0px ;
+  }
+
+}
